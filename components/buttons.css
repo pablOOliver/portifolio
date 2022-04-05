@@ -1,16 +1,17 @@
-button {
+.button {
     display: inline-block;
-    background-color: #730047;
-    color: white;
-    height: 60px;
-    padding-left: 0px 20px;
+    background-color: var(--color-second);
     line-height: 60px;
-    border: white;
-    font-family: 'Roboto Mono', sans-serif;
-    font-size: 20px;
-    box-shadow: 5px 5px 0 white;
-    margin-right: 0;
+    border: var(--color-third);
+    box-shadow: 5px 5px 0 var(--color-third);
     transition: transform 100ms cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}
+.button:hover {
+    transform: scale(1.08);
 }
 .buttonMain{
     display: flex;
@@ -18,9 +19,9 @@ button {
     justify-content: center;
     margin-top: 38px;
 }
-.buttonMain button{
+.buttonMain .button{
     margin-right  : 56px;
     margin-left : 56px;
     width: 170px;
-    height: 60px
+    height: 60px;
 }

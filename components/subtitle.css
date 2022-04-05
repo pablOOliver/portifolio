@@ -1,10 +1,10 @@
 h2 {
     font-family: 'Press Start 2P', sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 40px ;
     font-size: 2rem;
-    color: #370031;
+    color: var(--color-five);
     margin-top: 31px;
-    text-shadow: 1px 1px 0px #fff
+    text-shadow: 1px 1px 0px  var(--color-third);
 
 }

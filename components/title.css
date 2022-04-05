@@ -1,8 +1,8 @@
 h1{
-    text-shadow: 5px 5px 0px #3a0059 ;
+    text-shadow: 5px 5px 0px var(--color-four);
     font-family: 'Press Start 2P', sans-serif;
     font-weight: 400;
     font-size: 40px;
     font-size: 2.5rem;
-    color: white;
+    color:  var(--color-third);
 }
