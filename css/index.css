@@ -8,12 +8,6 @@ header {
 header img {
   width: 60px;
 }
-#imgMain {
-  width: 1440px;
-}
-nav {
-  text-align: right;
-}
 button {
   display: inline-block;
   background-color: #730047;
@@ -60,28 +54,4 @@ main {
   flex-direction: column;
   align-items: center;
   margin: 153px 612px 460px 201px;  
-}
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #730047;
-  width: 627px;
-  height: 184px;
-  box-shadow: 7px 7px 0px 0px white;
-  padding: 15px;
-
-}
-.buttonMain{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 38px;
-}
-.buttonMain button{
-  margin-right  : 56px;
-  margin-left : 56px;
-  width: 170px;
-  height: 60px
 }
