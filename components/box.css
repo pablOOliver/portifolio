@@ -1,10 +1,10 @@
-    #box {
+    .box {
         display: inline-block;
         Background-color: var(--color-second);
         padding: 40px 50px;  
         box-shadow: 7px 7px 0 var(--color-third);
         text-align: center;
     }
-    #box h1 {
+    .box h1 {
         margin-bottom: 22px;
     }

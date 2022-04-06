@@ -1,0 +1,16 @@
+
+.action {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 30px;
+    
+    color: inherit
+}
+.action::before {
+    content: "";
+    background-color: var(--color-second);
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}

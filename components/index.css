@@ -1,4 +1,7 @@
+@import url(page.css);
 @import url(box.css);
 @import url(buttons.css);
 @import url(title.css);
 @import url(subtitle.css);
+@import url(action.css);
+@import url(header.css);
