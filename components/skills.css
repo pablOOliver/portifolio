@@ -1,18 +1,45 @@
 .skills {
-    box-sizing: border-box;
+    position: absolute;
     display: flex;
     align-items: center;
     flex-direction: column;
-    
 
     background-color: var(--color-primary);
     border-bottom: 10px solid var(--color-four);
     width: 100%;
     height: 740px;
     padding: 50px;
-
 }
 .skills .skill-box {
+    position: relative;
     column-count: 2;
-    font-size: 25px;
+    font-size: 40px;
+    width: 960px;
+    height: 480px;
+    
+}
+.skills .skill-box .container{
+    display: flex;
+    flex-direction: row;
+    
+    width: 430px;
+    height: 90px;
+    margin-bottom: 38px;
+}
+.skills .skill-box .container .icon{
+    font-size: 85px;
+    margin-right: 10px;
+}
+.skills .skill-box .container .bar{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 320px;
+    height: 40px;
+    background-color: var(--color-second);
+}  
+.skills .skill-box .container .bar::before {
+    content:  "";
+    background-color: var(--color-third);
+    width: 20%;
+    height: 40;
 }
