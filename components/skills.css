@@ -1,33 +1,28 @@
-.section .skill-box {
-    position: relative;
+.skill-box {
     column-count: 2;
-    font-size: 40px;
+    font-size: 25px;
     width: 960px;
     height: 520px;
     
 }
-.section .skill-box .container{
-    display: flex;
-    flex-direction: row;
-    
-    width: 430px;
+.skill-box .container{
+    width: 530px;
     height: 90px;
-    margin-bottom: 38px;
-}
-.section .skill-box .container .icon{
-    font-size: 85px;
-    margin-right: 10px;
-}
-.section .skill-box .container .bar{
+
     display: flex;
-    flex-direction: row-reverse;
-    width: 320px;
-    height: 40px;
-    background-color: var(--color-second);
-}  
-.section .skill-box .container .bar::before {
-    content:  "";
-    background-color: var(--color-third);
-    width: 20%;
-    height: 40;
+    flex-direction: column; 
+    
+    
+}
+.skill-box .container .icon{
+    order: -1;
+    position:absolute;
+    font-size:65px;
+}
+.skill-box .container .title{
+    margin-left: 80px;
+}
+.skill-box .container .progress-bar{
+    margin-left: 80px;
+    margin-top: 10px;
 }
