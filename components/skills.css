@@ -1,25 +1,28 @@
-.skill-box {
-    column-count: 2;
-    font-size: 40px;    
+.skill-box{
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 860px;
+    max-height: 480px;
+    margin-right:auto;
+    margin-left: auto;
 }
 .skill-box .container{
-    width: 530px;
-    height: 100px;
-
     display: flex;
-    flex-direction: column; 
-    margin-right: 30px;
-    margin-bottom: 60px;
+    font-size: 25px;
+
+    margin-right: 38px;
+    margin-bottom: 38px;
+}
+.skill-box .container:nth-child(odd){
+    margin-right: 100px;
+}
+.skill-box .container .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .skill-box .container .icon{
-    order: -1;
-    position:absolute;
-    font-size:100px;
-}
-.skill-box .container .title{
-    margin-left: 120px;
-}
-.skill-box .container .progress-bar{
-    margin-left: 120px;
-    margin-top: 10px;
+    font-size: 90px;
+    margin-right: 20px;
 }
