@@ -1,28 +1,25 @@
 .skill-box {
     column-count: 2;
-    font-size: 25px;
-    width: 960px;
-    height: 520px;
-    
+    font-size: 40px;    
 }
 .skill-box .container{
     width: 530px;
-    height: 90px;
+    height: 100px;
 
     display: flex;
     flex-direction: column; 
-    
-    
+    margin-right: 30px;
+    margin-bottom: 60px;
 }
 .skill-box .container .icon{
     order: -1;
     position:absolute;
-    font-size:65px;
+    font-size:100px;
 }
 .skill-box .container .title{
-    margin-left: 80px;
+    margin-left: 120px;
 }
 .skill-box .container .progress-bar{
-    margin-left: 80px;
+    margin-left: 120px;
     margin-top: 10px;
 }
