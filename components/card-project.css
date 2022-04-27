@@ -1,0 +1,13 @@
+.card-project{ 
+/*visualizalção/cor*/
+    background-color: var(--color-second);
+/*tamanho*/
+    width: 280px;
+    height: 280px;
+/*posição*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*estilização*/
+    box-shadow: 7px 7px 0 var(--color-third);
+}
