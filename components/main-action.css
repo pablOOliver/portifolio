@@ -1,5 +1,5 @@
 
-.action {
+.main-action {
     display: inline-flex;
     align-items: center;
     text-decoration: none;
@@ -7,7 +7,7 @@
     
     color: inherit
 }
-.action::before {
+.main-action::before {
     content: "";
     background-color: var(--color-second);
     width: 10px;
