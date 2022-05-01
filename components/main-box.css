@@ -1,4 +1,4 @@
-    .box {
+    .main-box {
         box-sizing: border-box;
         display: inline-block;
         Background-color: var(--color-second);
@@ -8,6 +8,6 @@
         
         margin-bottom: 38px;
     }
-    .box .main-title {
+    .main-box .main-title {
         margin-bottom: 21px;
     }
