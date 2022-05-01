@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;
     background-color: var(--color-second);
     border: var(--color-third);
@@ -12,7 +12,7 @@
     font-size: inherit;
     font-family: inherit;
 }
-.button:hover {
+.main-button:hover {
     transform: scale(1.08);
     box-shadow: 7px 7px 0px var(--color-third);
 }
