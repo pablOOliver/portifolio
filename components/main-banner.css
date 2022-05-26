@@ -2,14 +2,14 @@
   box-sizing: border-box;
   background-image: url(../assets/img/banner.jpg);
   background-repeat: no-repeat;
-  height: 800px;
+  height: 80.0rem;
   background-size: 100%;
   
-  padding-top: 150px;
-  padding-left: 200px;
+  padding-top: 15.0rem;
+  padding-left: 20.0rem;
 }
 .main-banner .wrapper {
-  width: 630px;
+  width: 63.0rem;
   display:flex;
   flex-direction: column;
 

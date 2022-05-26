@@ -5,8 +5,8 @@
     box-shadow: 4px 4px 0 var(--color-third);
     transition: transform 100ms cubic-bezier(0.075, 0.82, 0.165, 1);
 
-    line-height: 60px;
-    width: 170px;
+    line-height: 6.0rem;
+    width: 17.0rem;
 
     color: inherit;
     font-size: inherit;

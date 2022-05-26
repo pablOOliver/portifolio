@@ -2,12 +2,12 @@
         box-sizing: border-box;
         display: inline-block;
         Background-color: var(--color-second);
-        padding: 50px 30px;  
+        padding: 5.0rem 3.0rem;  
         box-shadow: 7px 7px 0 var(--color-third);
         text-align: center;
         
-        margin-bottom: 38px;
+        margin-bottom: 3.8rem;
     }
     .main-box .main-title {
-        margin-bottom: 21px;
+        margin-bottom: 2.1rem;
     }

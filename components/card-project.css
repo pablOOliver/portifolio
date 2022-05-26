@@ -2,8 +2,8 @@
 /*visualizalção/cor*/
     background-color: var(--color-second);
 /*tamanho*/
-    width: 280px;
-    height: 280px;
+    width: 28rem;
+    height: 28rem;
 /*posição*/
     display: flex;
     justify-content: center;
